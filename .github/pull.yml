@@ -1,0 +1,7 @@
+version: "1"
+rules:
+- base: master
+  upstream: Tencent:rapidjson
+  mergeMethod: rebase
+  conflictReviewers:
+  - zaucy
